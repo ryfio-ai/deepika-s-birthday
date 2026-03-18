@@ -1,5 +1,8 @@
+import { useState } from "react";
 import Sparkles from "@/components/Sparkles";
 import FloatingHearts from "@/components/FloatingHearts";
+import Confetti from "@/components/Confetti";
+import InteractiveCake from "@/components/InteractiveCake";
 import ScrollReveal from "@/components/ScrollReveal";
 import teddyHeart from "@/assets/teddy-heart.png";
 import teddyWave from "@/assets/teddy-wave.png";

@@ -108,20 +108,6 @@ const MemoriesSection = () => (
         You Make Life Brighter 💙
       </h3>
       <div className="space-y-4 text-foreground/90 font-body text-base md:text-lg leading-relaxed">
-        <p>
-          You have this magical way of turning ordinary moments into something beautiful.
-          Your laughter is contagious, your kindness is unforgettable,
-          and your positivity can brighten even the cloudiest days.
-        </p>
-        <p>
-          Every conversation with you feels meaningful. Every memory shared with you
-          becomes a treasure. You don't just exist in moments — you make them matter.
-        </p>
-        <p>
-          We met just a few days ago, and yet every little thing you've shared with me
-          has filled my heart with happiness. We haven't had enough time to talk,
-          to share, to just be — but even in those few moments, something beautiful began.
-        </p>
         <p className="font-semibold text-primary">
           I want to continue this bond forever, to my very last breath.
           You are a gift I never want to let go of. 💙

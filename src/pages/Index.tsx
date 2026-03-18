@@ -113,6 +113,12 @@ const CuteVisualsSection = () => (
         className="w-full max-w-lg drop-shadow-lg"
       />
     </ScrollReveal>
+    <ScrollReveal delay={300} className="text-center">
+      <h3 className="font-display text-2xl md:text-3xl text-primary mb-6">
+        Make a Wish! 🎂
+      </h3>
+      <InteractiveCake />
+    </ScrollReveal>
     <ScrollReveal delay={400}>
       <img
         src={teddyPair}

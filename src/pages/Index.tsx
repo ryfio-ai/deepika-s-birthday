@@ -1,5 +1,8 @@
+import { useState } from "react";
 import Sparkles from "@/components/Sparkles";
 import FloatingHearts from "@/components/FloatingHearts";
+import Confetti from "@/components/Confetti";
+import InteractiveCake from "@/components/InteractiveCake";
 import ScrollReveal from "@/components/ScrollReveal";
 import teddyHeart from "@/assets/teddy-heart.png";
 import teddyWave from "@/assets/teddy-wave.png";
@@ -83,8 +86,13 @@ const MemoriesSection = () => (
           becomes a treasure. You don't just exist in moments — you make them matter.
         </p>
         <p>
-          The happiness you bring into the world is a gift that keeps on giving,
-          and those around you are endlessly grateful for your warmth and your light.
+          We met just a few days ago, and yet every little thing you've shared with me
+          has filled my heart with happiness. We haven't had enough time to talk,
+          to share, to just be — but even in those few moments, something beautiful began.
+        </p>
+        <p className="font-semibold text-primary">
+          I want to continue this bond forever, to my very last breath.
+          You are a gift I never want to let go of. 💙
         </p>
       </div>
     </ScrollReveal>
@@ -104,6 +112,12 @@ const CuteVisualsSection = () => (
         alt="Cartoon characters celebrating birthday"
         className="w-full max-w-lg drop-shadow-lg"
       />
+    </ScrollReveal>
+    <ScrollReveal delay={300} className="text-center">
+      <h3 className="font-display text-2xl md:text-3xl text-primary mb-6">
+        Make a Wish! 🎂
+      </h3>
+      <InteractiveCake />
     </ScrollReveal>
     <ScrollReveal delay={400}>
       <img
@@ -139,8 +153,11 @@ const SurpriseSection = () => (
 );
 
 const Index = () => {
+  const [showInitialConfetti, setShowInitialConfetti] = useState(true);
+
   return (
     <div className="bg-birthday-gradient min-h-screen relative overflow-x-hidden">
+      {showInitialConfetti && <Confetti />}
       <Sparkles />
       <FloatingHearts />
       <div className="relative z-10 max-w-4xl mx-auto">

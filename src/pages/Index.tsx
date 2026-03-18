@@ -86,8 +86,13 @@ const MemoriesSection = () => (
           becomes a treasure. You don't just exist in moments — you make them matter.
         </p>
         <p>
-          The happiness you bring into the world is a gift that keeps on giving,
-          and those around you are endlessly grateful for your warmth and your light.
+          We met just a few days ago, and yet every little thing you've shared with me
+          has filled my heart with happiness. We haven't had enough time to talk,
+          to share, to just be — but even in those few moments, something beautiful began.
+        </p>
+        <p className="font-semibold text-primary">
+          I want to continue this bond forever, to my very last breath.
+          You are a gift I never want to let go of. 💙
         </p>
       </div>
     </ScrollReveal>

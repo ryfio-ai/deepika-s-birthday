@@ -153,8 +153,11 @@ const SurpriseSection = () => (
 );
 
 const Index = () => {
+  const [showInitialConfetti, setShowInitialConfetti] = useState(true);
+
   return (
     <div className="bg-birthday-gradient min-h-screen relative overflow-x-hidden">
+      {showInitialConfetti && <Confetti />}
       <Sparkles />
       <FloatingHearts />
       <div className="relative z-10 max-w-4xl mx-auto">
